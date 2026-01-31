@@ -1,5 +1,6 @@
 package com.example.fragmentactivityinteraction
 
 interface NumChanger{
-    fun NumChanger(count: String)
+    fun Increment(count: Int)
+    fun Decrement(count: Int)
 }

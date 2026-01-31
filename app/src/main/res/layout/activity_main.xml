@@ -12,5 +12,25 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:name="com.example.fragmentactivityinteraction.FirstFragment"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/btnAdd"
+        android:layout_marginEnd="10dp">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub"
+        android:id="@+id/btnSub"
+        android:layout_gravity="center">
+    </Button>
+    </LinearLayout>
 </LinearLayout>
