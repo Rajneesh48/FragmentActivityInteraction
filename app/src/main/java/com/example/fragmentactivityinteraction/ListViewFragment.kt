@@ -42,7 +42,6 @@ public class ListViewFragment : Fragment() {
         binding.listView.adapter = arrayadapterView
 
 
-        //list.add(StudentModel("Coder Roots",123))
         binding.btn.setOnClickListener {
             list.add("Coder Roots")
             arrayadapterView.notifyDataSetChanged()
